@@ -1,0 +1,114 @@
+:root {
+    --color-bg: #CCCCFF;
+    --color-header-main: white;
+    --color-primary: #a88facff;
+    --wrapper-height: 87vh;
+    --image-max-width: 300px;
+    --image-margin: 3rem;
+    
+    background-color: var(--color-primary);
+    font-family: 'Lexend', sans-serif;
+  
+  }
+  .form {
+    display: grid;
+    grid: auto / 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 600px;
+  }
+    
+  #survey-form {
+    font-family: 'Lexend';
+    
+  }
+   input[type="checkbox"] {
+      border: 1px solid grey;
+      border-radius: 2px;
+     
+    }
+  
+  input[type="button"], input[type="submit"], input[type="file"] {
+      height: 3em;
+      font-family: 'Lexend', sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    padding: 6px 6px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+  
+  input:invalid {
+    border: 1px red solid;
+    
+  }
+  
+  .headings {
+    font-family: 'Lexend', sans-serif;
+    color: var(--color-header-main);
+  }
+  
+  h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    color: var(--color-header-main);
+  }
+  
+  h2 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 28px;
+    color: var(--color-header-main);
+  }
+  
+  h3 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 24px;
+    color: var(--color-header-main);
+  }
+  
+  h4 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    color: var(--color-header-main);
+  }
+  
+  h5 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    color: var(--color-header-main);
+  }
+  
+  h6 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 12px;
+    color: var(--color-header-main);
+  }
+  
+  p {
+    font-family: 'Lexend', sans-serif;
+    color: #000000;
+  }
+  
+  a:link {
+    font-family: 'Lexend', sans-serif;
+    font-style: strong;
+    color: #008080;
+  }
+  
+  a:visited {
+    font-family: 'Lexend', sans-serif;
+    color: #5e2197ff;
+  }
+  
+  a:hover {
+    font-family: 'Lexend', sans-serif;
+    color: #FFFFFF;
+  }
+    form.submitform {
+      grid-column: span 2;
+    }
+    /*.hidden {
+      grid-template-columns: 0px;
+    }*/
